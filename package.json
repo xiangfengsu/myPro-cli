@@ -1,6 +1,6 @@
 {
   "name": "mypro-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "mypro-cli",
   "bin": {
     "myPro": "./bin/myPro"
