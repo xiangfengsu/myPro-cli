@@ -20,6 +20,7 @@ program.version(pkg.version)
   .option('p', 'format code by prettier eslint')
   .parse(process.argv);
 
+
 if (program.init) {
   console.log(chalk.red('`pro init` is deprecated, please use `pro new`'));
 }
