@@ -1,0 +1,36 @@
+{
+  "name": "mypro-cli",
+  "version": "1.0.0",
+  "description": "mypro-cli",
+  "bin": {
+    "myPro": "./bin/myPro.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dafeng",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^2.0.3",
+    "bisheng": "^0.24.2",
+    "chalk": "^2.1.0",
+    "commander": "^2.11.0",
+    "css-split-webpack-plugin": "^0.2.3",
+    "download-git-repo": "^1.0.1",
+    "eslint-plugin-compat": "^2.1.0",
+    "fs-extra": "^4.0.1",
+    "inquirer": "^3.2.2",
+    "ora": "^1.3.0",
+    "prettier-eslint": "^8.2.3",
+    "require": "^2.4.20",
+    "shelljs": "^0.7.8",
+    "unzip2": "^0.2.5",
+    "which": "^1.3.0"
+  },
+  "devDependencies": {},
+  "files": [
+    "bin",
+    "boilerplate",
+    "lib"
+  ]
+}
