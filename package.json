@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "mypro-cli",
   "bin": {
-    "myPro": "./bin/myPro.js"
+    "myPro": "./bin/myPro"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
