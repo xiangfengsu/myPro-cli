@@ -19,7 +19,6 @@ program.version(pkg.version)
   .option('p', 'format code by prettier eslint')
   .parse(process.argv);
 
-
 if (program.new || program.n) {
   newCli(process.argv);
 }
